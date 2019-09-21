@@ -1,0 +1,105 @@
+#page .book-font {
+    font-family: 'IM Fell English', serif;
+}
+
+#page .positioning {
+    display: flex;
+}
+
+#page .img-sizing {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+#page p {
+    font-size: 2em;
+}
+
+#page .text-positioning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page .next-chapter {
+    display: none;
+    opacity: 0;
+    transition: opacity 2s;
+    font-size: 2em;
+}
+
+#page a :hover {
+    text-decoration: underline;
+}
+
+#page .ticket1 {
+    width: 100%;
+}
+
+#page .ticketSpecial {
+    width: 100%;
+    transition: all 1.5s;
+    box-shadow:0 0 10px beige ;
+}
+
+#page .ticketSpecial:hover {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+
+#page ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+#page li {
+    display: block;
+    border-radius: 2px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#page .poster-sizing {
+    width: 80%;
+}
+
+#poster .poster-position {
+    display: flex;
+    justify-content: center;
+}
+
+#page .people-positioning {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#page .peoples {
+    width:80%;
+    height: 80%;
+}
+
+#page .people1 {
+    position: absolute;
+    top: 45%;
+    right: 44%;
+}
+
+#page .people1_2 {
+    position: absolute;
+    top: 45%;
+    right: 44%;
+}
+
+#page .people2 {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+}

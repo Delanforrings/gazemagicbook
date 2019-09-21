@@ -1,24 +1,29 @@
-#home .heading {
+#landing .tips {
+    text-align: left;
+}
+
+#landing .heading {
     text-align: center;
     padding: 10px
 }
 
-#home .video-bg {
-    height: 100%;
-}
 
-#home .book-font {
+#landing .book-font {
     font-family: 'IM Fell English', serif;
 }
 
-#home .positioning {
+#landing .positioning {
     display: flex;
 }
 
-#home .background-gradient {
+#landing .background-gradient {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background: radial-gradient(#dee2e6 59%, #2e2e2e);
+}
+
+#landing ol {
+    font-size: 1.3em;
 }
