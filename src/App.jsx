@@ -7,6 +7,7 @@ import Page1 from "./pages/book/page1";
 import Page2 from "./pages/book/page2";
 import Page3_2 from "./pages/book/page3";
 import Page3_1 from "./pages/book/page3_1";
+import Page4 from "./pages/book/page4";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/page2" component={Page2}/>
                     <Route path="/page3_2" component={Page3_2}/>
                     <Route path="/page3_1" component={Page3_1}/>
+                    <Route path="/page4" component={Page4}/>
 
                 </MDBAnimation>
             </div>

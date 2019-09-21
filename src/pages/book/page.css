@@ -68,6 +68,7 @@
 
 #page .poster-sizing {
     width: 80%;
+    transition: opacity 3s;
 }
 
 #poster .poster-position {
@@ -79,6 +80,7 @@
     position: relative;
     top: 0;
     left: 0;
+    opacity: 1;
 }
 
 #page .peoples {
@@ -87,19 +89,33 @@
 }
 
 #page .people1 {
+    opacity: 0;
     position: absolute;
     top: 45%;
     right: 44%;
+    transition: opacity 2s;
 }
 
 #page .people1_2 {
+    opacity: 0;
     position: absolute;
-    top: 45%;
-    right: 44%;
+    top: 42%;
+    right: 60%;
+    transition: opacity 2s;
 }
 
 #page .people2 {
+    opacity: 0;
     position: absolute;
     top: 45%;
     left: 44%;
+    transition: opacity 5s;
+}
+
+#page .people2_2 {
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transition: opacity 5s;
 }
