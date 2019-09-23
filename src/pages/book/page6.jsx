@@ -29,10 +29,12 @@ class Page6 extends React.Component {
                                 </p>
 
                                 <p>
-                                    He says only one child will win the
+                                    He says only ONE child will win the
                                     biggest price that they can never imagine.
                                 </p>
-
+                                <a href="/test1">
+                                    Let's now go to the first room!
+                                </a>
 
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">

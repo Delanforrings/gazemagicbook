@@ -119,3 +119,40 @@
     left: 60%;
     transition: opacity 5s;
 }
+
+#page .floating {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+
+        transform: translatey(0px);
+    }
+    50% {
+
+        transform: translatey(-20px);
+    }
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+#page .restricted {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    top: 47%;
+    right: 40%;
+}
+
+#page .entryZone {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 10%;
+    right: 34%;
+}
+
