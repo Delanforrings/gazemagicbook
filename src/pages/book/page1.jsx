@@ -44,7 +44,7 @@ class Page1 extends React.Component {
                             <MDBCol md="6" className="mb-4 text-left text-positioning">
                                 <p>
                                     Once upon a time, there was a little boy.
-                                    His name is Charlie Bucket.
+                                    His name is Charlie Bucket, and YOU are his guardian angle.
                                 </p>
 
                                 <p>

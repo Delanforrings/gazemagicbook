@@ -24,7 +24,7 @@ const Item = posed.li({
 class Page2 extends React.Component {
     state = {
         items: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-        time: 15,
+        time: 30,
     };
 
     componentDidMount() {
@@ -81,7 +81,7 @@ class Page2 extends React.Component {
 
                                 <p>
                                     Read the poster from Wonka’s factory as
-                                    fast as you can before the people block your view!
+                                    FAST as you can before the people BLOCK your view!
                                 </p>
                                 <p>
                                     You are going to see the poster in: {this.state.time} seconds
