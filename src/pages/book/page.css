@@ -13,7 +13,7 @@
 }
 
 #page p {
-    font-size: 2em;
+    font-size: 30px;
 }
 
 #page .text-positioning {
@@ -26,7 +26,15 @@
     display: none;
     opacity: 0;
     transition: opacity 2s;
-    font-size: 2em;
+    font-size: 30px;
+}
+
+#page a {
+    font-size: 20px;
+}
+
+#page span {
+    font-size: 17px;
 }
 
 #page a :hover {
@@ -156,3 +164,17 @@
     right: 34%;
 }
 
+#page .inventions {
+    position: absolute;
+    width: 13%;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+#page .rZone2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 46%;
+    left: 35%;
+}

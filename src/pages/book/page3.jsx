@@ -30,6 +30,7 @@ class Page3_2 extends React.Component {
                                 <p>
                                     Tomorrow, little Charlie and grandpa joe are going to the Wonka's chocolate factory.
                                 </p>
+                                <a href="/page6">Let's go!</a>
 
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">

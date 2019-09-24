@@ -54,7 +54,7 @@ export default class Test1 extends React.Component {
                                         However, some kids might addict to candy and chocolate...
                                     </p>
                                     <span style={{color: "red"}}>
-                                        Hint: Try not to stare or take the candy! Find the entry for the next room when you finish viewing this room
+                                        Hint: Try not to stare or take the candy! Find the entrance for the next room when you finish viewing this room
 
                                     </span>
                                     <div style={{position:"relative"}}>

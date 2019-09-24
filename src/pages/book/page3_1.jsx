@@ -44,7 +44,7 @@ class Page3_1 extends React.Component {
             <div id="page">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>I got the Golden Ticket!</title>
+                    <title>What's on the poster?</title>
                 </Helmet>
                 <div className="positioning book-font" style={{overflow:"hidden"}}>
 

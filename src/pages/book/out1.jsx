@@ -42,7 +42,7 @@ export default class Out1 extends React.Component {
                                 <a href="/Test1">
                                     Yes, I will not addict to sweets anymore.
                                 </a>
-                                <a href="">
+                                <a href="/">
                                     No, candy is my life. I have to eat candy every second in my life.
                                 </a>
 
