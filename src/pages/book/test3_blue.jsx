@@ -46,7 +46,7 @@ export default class Test3_blue extends React.Component {
 
 
         return (
-            <div id="page" style={{background:"linear-gradient(to left, white 50%, #4F86F7)"}}>
+            <div id="page" style={{background:"radial-gradient(#ffffff 59%, #4F86F7)"}}>
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Nut Room</title>
