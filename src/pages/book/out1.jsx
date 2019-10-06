@@ -15,7 +15,7 @@ export default class Out1 extends React.Component {
                     <title>You are out!</title>
                 </Helmet>
 
-                <div className="positioning book-font">
+                <div className="positioning book-facont">
                     <MDBContainer className="px-md-3 px-sm-0 d-flex justify-content-center align-items-center gradient" style={{height: "100vh"}}>
                         <MDBRow>
                             <MDBCol md="6" className="mb-4 text-left text-positioning">

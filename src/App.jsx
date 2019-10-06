@@ -13,6 +13,15 @@ import Page6 from "./pages/book/page6";
 import Test1 from "./pages/book/test1";
 import Out1 from "./pages/book/out1";
 import Test2 from "./pages/book/test2";
+import Out2 from "./pages/book/out2";
+import Test2_blue from "./pages/book/test2_blue";
+import Test3 from "./pages/book/test3";
+import Out3 from "./pages/book/out3";
+import Test3_blue from "./pages/book/test3_blue";
+import Out3_blue from "./pages/book/out3_blue";
+import Test3_trash from "./pages/book/test3_trash";
+import Test3_blue_trash from "./pages/book/test3_blue_trash";
+import Test4 from "./pages/book/test4";
 
 function App() {
     return (
@@ -31,7 +40,16 @@ function App() {
                     <Route path="/page6" component={Page6}/>
                     <Route path="/Test1" component={Test1}/>
                     <Route path="/Test2" component={Test2}/>
+                    <Route path="/Test2_blue" component={Test2_blue}/>
+                    <Route path="/Test3" component={Test3}/>
+                    <Route path="/Test3_blue" component={Test3_blue}/>
+                    <Route path="/Test3_blue_trash" component={Test3_blue_trash}/>
+                    <Route path="/Test3_trash" component={Test3_trash}/>
+                    <Route path="/Test4" component={Test4}/>
                     <Route path="/Out1" component={Out1}/>
+                    <Route path="/Out2" component={Out2}/>
+                    <Route path="/Out3" component={Out3}/>
+                    <Route path="/Out3_blue" component={Out3_blue}/>
 
                 </MDBAnimation>
             </div>
