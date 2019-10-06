@@ -260,3 +260,11 @@
     transform: translateX(0) translateZ(0) scaleY(1);
     animation: move_wave 3s linear infinite;
 }
+
+#page .launch {
+    transition: opacity 2s ease-in-out;
+}
+
+#page .pageOut {
+    transition: opacity 4s ease-in-out;
+}

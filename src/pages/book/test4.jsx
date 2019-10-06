@@ -3,26 +3,39 @@ import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation, MDBBtn, MD
 import {Helmet} from 'react-helmet';
 import "./page.css";
 import transition from "../../images/transition.png";
+import launch from "../../images/launch.png";
 
 
 export default class Test4 extends React.Component {
 
     componentDidMount () {
-
+        setTimeout(()=>{
+            alert("Congratulations! You are the last child left in this visit! And you will be granted the mysterious surprise.")
+            let launchBtn = document.getElementById("btn");
+            launchBtn.style.opacity = "1";
+            let warning = document.getElementById("warning");
+            warning.style.color = "green";
+            warning.innerText = "Mr.Wonka wants you to press the Launch Button to see what's the mysterious surprise for you."
+        }, 6000)
     }
 
     render() {
 
 
         function nextRoom () {
-            window.open("/Test4", "_self");
+            let page = document.getElementById("entirePage");
+            page.style.opacity = "0"
         }
 
-        function nope () {
-            alert("Please drop the unpeeled nut! Don't disturb squirrels' work please.")
+        function out () {
+            alert("You have been transferred to a mystery place. You will be transfer back after the visit finishes...")
         }
 
-        let room = <img src={transition}/>
+        let room = <img onClick={out} style={{width:"100%", cursor:"pointer"}} src={transition}/>;
+        let launchImg = <img onClick={nextRoom} id="btn" className="launch" style={{cursor:"pointer", position:"absolute", width:"30%", right:"-100px", top:"50px", opacity:"0"}} src={launch}/>;
+        let warning = <span id="warning" style={{color: "red"}}>
+                                      Please try not to touch any equipment.
+                                </span>;
 
         return (
             <div id="page">
@@ -31,23 +44,29 @@ export default class Test4 extends React.Component {
                     <title>Nut Room</title>
                 </Helmet>
 
-                <div className="positioning book-font">
-                    <MDBContainer className="px-md-3 px-sm-0 d-flex justify-content-center align-items-center gradient" style={{height: "70vh"}}>
+                <div className="positioning book-font pageOut" id="entirePage">
+
+                    <MDBContainer className="px-md-3 px-sm-0 d-flex justify-content-center align-items-center gradient" style={{height: "100vh"}}>
                         <MDBRow>
-                            <MDBCol md="12" className="mb-4 text-center text-positioning">
+                            <MDBCol md="6" className="mb-4 text-left text-positioning">
                                 <p>
                                     The fourth room is transition room.
                                 </p>
                                 <p>
                                     Please be quite and watch them to operate.
                                 </p>
-                                <span style={{color: "red"}}>
-                                      Please try not to touch any equipment.
-                                </span>
+                                <p>
+                                    See how to transfer the chocolate from one place to another.
+                                </p>
+                                {warning}
+
                                 <div style={{position:"relative"}}>
-                                    {room}
+                                    {launchImg}
                                 </div>
 
+                            </MDBCol>
+                            <MDBCol md="6" className="mb-4 text-center">
+                                {room}
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>

@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed891fe8-e093-49dd-a4f9-40e2ce5bd39d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/out2.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/out3.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/out3_blue.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test2_blue.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test3.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test3_blue.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/book/test4.jsx" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" afterPath="$PROJECT_DIR$/src/App.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/out1.jsx" afterPath="$PROJECT_DIR$/src/pages/book/out1.jsx" />
       <change beforePath="$PROJECT_DIR$/src/pages/book/page.css" afterPath="$PROJECT_DIR$/src/pages/book/page.css" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/test2.jsx" afterPath="$PROJECT_DIR$/src/pages/book/test2.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test3.jsx" afterPath="$PROJECT_DIR$/src/pages/book/test3.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx" afterPath="$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" afterPath="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test4.jsx" afterPath="$PROJECT_DIR$/src/pages/book/test4.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +32,8 @@
       <file leaf-file-name="test3.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test3.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="1" />
+            <state relative-caret-position="281">
+              <caret line="33" column="102" lean-forward="false" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -65,8 +56,8 @@
       <file leaf-file-name="test4.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test4.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            <state relative-caret-position="321">
+              <caret line="33" column="98" lean-forward="false" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="98" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -74,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test2.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test2.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="11">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="107" selection-end-column="35" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -101,8 +92,8 @@
       <file leaf-file-name="test3_blue.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test3_blue.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
+            <state relative-caret-position="473">
+              <caret line="76" column="38" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="76" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -113,8 +104,8 @@
       <file leaf-file-name="test3_trash.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test3_trash.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="193">
+              <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -122,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test3_blue_trash.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test3_blue_trash.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="212">
+              <caret line="33" column="102" lean-forward="false" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -137,8 +128,8 @@
       <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/book/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="259" column="53" lean-forward="true" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
+            <state relative-caret-position="578">
+              <caret line="268" column="39" lean-forward="false" selection-start-line="268" selection-start-column="39" selection-end-line="268" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -172,15 +163,15 @@
         <option value="$PROJECT_DIR$/src/pages/book/out2.jsx" />
         <option value="$PROJECT_DIR$/src/pages/book/test2_blue.jsx" />
         <option value="$PROJECT_DIR$/src/pages/book/test2.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/book/test3.jsx" />
         <option value="$PROJECT_DIR$/src/pages/book/out3.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/book/page.css" />
-        <option value="$PROJECT_DIR$/src/pages/book/test3_blue.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx" />
         <option value="$PROJECT_DIR$/src/pages/book/out3_blue.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/book/test3_blue.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/book/page.css" />
         <option value="$PROJECT_DIR$/src/pages/book/test4.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/book/test3.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx" />
       </list>
     </option>
   </component>
@@ -314,12 +305,12 @@
       <workItem from="1569207575141" duration="7523000" />
       <workItem from="1569216280178" duration="681000" />
       <workItem from="1569285068327" duration="2858000" />
-      <workItem from="1570325612781" duration="9591000" />
+      <workItem from="1570325612781" duration="11151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9591000" />
+    <option name="totallyTimeSpent" value="11151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -425,38 +416,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/book/page.css">
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="259" column="53" lean-forward="true" selection-start-line="259" selection-start-column="53" selection-end-line="259" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="383">
+          <caret line="47" column="60" lean-forward="true" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/book/test3_blue.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="473">
+          <caret line="76" column="38" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="76" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/book/test3_trash.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/book/test2.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="11">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="107" selection-end-column="35" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -473,40 +456,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/book/test3.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/book/page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="47" column="60" lean-forward="true" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="268" column="39" lean-forward="false" selection-start-line="268" selection-start-column="39" selection-end-line="268" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/book/test4.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="321">
+          <caret line="33" column="98" lean-forward="false" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="98" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/book/test2.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/book/test3.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="281">
+          <caret line="33" column="102" lean-forward="false" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/book/test3_trash.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/book/test3_blue_trash.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="33" column="102" lean-forward="false" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

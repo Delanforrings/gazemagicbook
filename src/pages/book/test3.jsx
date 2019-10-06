@@ -31,8 +31,8 @@ export default class Test3 extends React.Component {
 
     render() {
         let squirrelImg = <img className="squirrelNBouncing" id="squirrel" src={squirrel} style={{width:"10%", position:"absolute", top:"200px", left:"0"}}/>;
-        let nutImg = <img onClick={nope} className="nut" id="nut" src={nut} style={{width:"10%", position:"absolute", left:"0"}}/>;
-        let nutOpenImg = <img onClick={nextRoom} className="nutOpen" src={nut_open} style={{width:"10%", position:"absolute", top:"200px", left:"10px"}}/>;
+        let nutImg = <img onClick={nope} className="nut" id="nut" src={nut} style={{cursor:"pointer", width:"10%", position:"absolute", left:"0"}}/>;
+        let nutOpenImg = <img onClick={nextRoom} className="nutOpen" src={nut_open} style={{cursor:"pointer", width:"10%", position:"absolute", top:"200px", left:"10px"}}/>;
         let nutRoomImg = <img src={nut_room} style={{width:"50%", position:"absolute", right:"0"}}/>;
         let goodNutZone = <div id="good" style={{position:"absolute", height:"120px", width:"100px", right:"305px", top:"176px",background:"transparent"}}/>;
 
