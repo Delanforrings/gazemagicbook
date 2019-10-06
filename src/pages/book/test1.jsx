@@ -30,8 +30,8 @@ export default class Test1 extends React.Component {
         let candyWorld = <img src={candyImg} style={{width: "100%"}}/>;
         let candyOne = <img src={candy1} className="floating" style={{width: "10%", position:"absolute", right:"90%", top:"-25%"}}/>;
         let candyTwo = <img src={candy2} className="floating" style={{width: "10%", position:"absolute", right: "1%", top:"-25%"}}/>;
-        let restrcitedZone = <div id="restrictedZone" className="restricted"/>;
-        let entryZone = <div className="entryZone" onClick={nextRoom}/>
+        let restrcitedZone = <div id="restrictedZone" className="restricted" style={{cursor:"pointer"}}/>;
+        let entryZone = <div className="entryZone" onClick={nextRoom} style={{cursor:"pointer"}}/>;
 
         function nextRoom() {
             window.open("/Test2", "_self");
@@ -54,8 +54,7 @@ export default class Test1 extends React.Component {
                                         However, some kids might addict to candy and chocolate...
                                     </p>
                                     <span style={{color: "red"}}>
-                                        Hint: Try not to stare or take the candy! Find the entrance for the next room when you finish viewing this room
-
+                                        Hint: Try not to stare or take the candy! Find the entrance (somewhere at the upper-right corner) for the next room when you finish viewing this room
                                     </span>
                                     <div style={{position:"relative"}}>
                                         {candyWorld}

@@ -4,9 +4,10 @@ import {Helmet} from 'react-helmet';
 import "./page.css";
 import transition from "../../images/transition.png";
 import launch from "../../images/launch.png";
+import rubbish from "../../images/trash.png";
 
 
-export default class Test4 extends React.Component {
+export default class Test4_trash extends React.Component {
 
     componentDidMount () {
         setTimeout(()=>{
@@ -39,6 +40,7 @@ export default class Test4 extends React.Component {
         let warning = <span id="warning" style={{color: "red"}}>
                                       Please try not to touch any equipment.
                                 </span>;
+        let trash = <img className="trash" src={rubbish}/>
 
         return (
             <div id="page">
@@ -52,6 +54,7 @@ export default class Test4 extends React.Component {
                     <MDBContainer className="px-md-3 px-sm-0 d-flex justify-content-center align-items-center gradient" style={{height: "100vh"}}>
                         <MDBRow>
                             <MDBCol md="6" className="mb-4 text-left text-positioning">
+                                {trash}
                                 <p>
                                     The fourth room is transition room.
                                 </p>

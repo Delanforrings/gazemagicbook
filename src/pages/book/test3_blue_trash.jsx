@@ -38,7 +38,7 @@ export default class Test3_blue_trash extends React.Component {
         let trash = <img className="trash" src={rubbish}/>
 
         function nextRoom () {
-            window.open("/Test4", "_self");
+            window.open("/Test4_blue_trash", "_self");
         }
 
         function nope () {

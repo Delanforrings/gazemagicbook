@@ -54,7 +54,7 @@ export default class Test2 extends React.Component {
         let inv3 = <img className="inventions" id="inv3" src={invetion3} style={{bottom:"10%"}}/>;
         let inv4 = <img className="inventions" id="inv4" src={steak}/>;
 
-        let restrictedZone2 = <div className="rZone2" onClick={out2}/>;
+        let restrictedZone2 = <div className="rZone2" onClick={out2} style={{cursor:"pointer"}}/>;
 
         function out2() {
             window.open("/Out2", "_self");

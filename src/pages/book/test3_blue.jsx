@@ -36,7 +36,7 @@ export default class Test3_blue extends React.Component {
         let goodNutZone = <div id="good" style={{position:"absolute", height:"120px", width:"100px", right:"305px", top:"176px",background:"transparent"}}/>;
 
         function nextRoom () {
-            window.open("/Test4", "_self");
+            window.open("/Test4_blue", "_self");
         }
 
         function nope () {

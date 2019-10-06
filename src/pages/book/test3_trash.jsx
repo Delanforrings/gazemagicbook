@@ -39,7 +39,7 @@ export default class Test3_trash extends React.Component {
 
 
         function nextRoom () {
-            window.open("/Test4", "_self");
+            window.open("/Test4_trash", "_self");
         }
 
         function nope () {

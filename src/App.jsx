@@ -22,6 +22,10 @@ import Out3_blue from "./pages/book/out3_blue";
 import Test3_trash from "./pages/book/test3_trash";
 import Test3_blue_trash from "./pages/book/test3_blue_trash";
 import Test4 from "./pages/book/test4";
+import Test4_blue from "./pages/book/test4_blue";
+import Test4_blue_trash from "./pages/book/test4_blue_trash";
+import Test4_trash from "./pages/book/test4_trash";
+import Factory from "./pages/book/factory";
 
 function App() {
     return (
@@ -46,10 +50,14 @@ function App() {
                     <Route path="/Test3_blue_trash" component={Test3_blue_trash}/>
                     <Route path="/Test3_trash" component={Test3_trash}/>
                     <Route path="/Test4" component={Test4}/>
+                    <Route path="/Test4_blue" component={Test4_blue}/>
+                    <Route path="/Test4_blue_trash" component={Test4_blue_trash}/>
+                    <Route path="/Test4_trash" component={Test4_trash}/>
                     <Route path="/Out1" component={Out1}/>
                     <Route path="/Out2" component={Out2}/>
                     <Route path="/Out3" component={Out3}/>
                     <Route path="/Out3_blue" component={Out3_blue}/>
+                    <Route path="/Factory" component={Factory}/>
 
                 </MDBAnimation>
             </div>

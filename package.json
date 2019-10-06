@@ -10,7 +10,8 @@
     "react-pose": "^4.0.8",
     "react-scripts": "3.1.1",
     "react-speech-recognition": "^2.0.4",
-    "react-voice-components": "^1.0.0"
+    "react-voice-components": "^1.0.0",
+    "react-youtube": "^7.9.0"
   },
   "scripts": {
     "start": "react-scripts start",

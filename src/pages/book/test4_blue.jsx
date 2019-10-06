@@ -6,7 +6,7 @@ import transition from "../../images/transition.png";
 import launch from "../../images/launch.png";
 
 
-export default class Test4 extends React.Component {
+export default class Test4_blue extends React.Component {
 
     componentDidMount () {
         setTimeout(()=>{
@@ -41,7 +41,7 @@ export default class Test4 extends React.Component {
                                 </span>;
 
         return (
-            <div id="page">
+            <div id="page" style={{background:"linear-gradient(to left, white 50%, #4F86F7)"}}>
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Transition Room</title>
