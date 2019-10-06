@@ -20,18 +20,17 @@ export default class Test2_blue extends React.Component {
             inv1.style.display = "none";
         }, 4000);
 
-
         setTimeout(() => {
             let inv2 = document.getElementById("inv2");
             inv2.style.border = "2px dash yellow";
-            alert("This is a Chocolate Pasta! It looks like a chocolate but it tastes like pasta.");
+            alert("This is a Donut mushroom soup! It looks like a chocolate but it tastes like mushroom soup.");
             inv2.style.display = "none";
         }, 8000);
 
         setTimeout(() => {
             let inv3 = document.getElementById("inv3");
             inv3.style.border = "2px dash yellow";
-            alert("This is a Chocolate Pasta! It looks like a chocolate but it tastes like pasta.");
+            alert("This is a Chewing gum cookie! It looks like a cookie but it is actually a chewing gum.");
             inv3.style.display = "none";
         }, 12000);
 
@@ -39,7 +38,9 @@ export default class Test2_blue extends React.Component {
         setTimeout(() => {
             let inv4 = document.getElementById("inv4");
             inv4.style.border = "2px dash yellow";
-            alert("This is a Chocolate Pasta! It looks like a chocolate but it tastes like pasta.");
+
+            alert("This is a Steak candy! It is a candy which you could taste steak from it.");
+
             inv4.style.display = "none";
         }, 16000);
 
