@@ -2,6 +2,19 @@
     font-family: 'IM Fell English', serif;
 }
 
+#page .nextSection {
+    background: transparent;
+    width:100px
+}
+
+#page .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}
+
 #page .positioning {
     display: flex;
 }
@@ -10,6 +23,12 @@
     width: 100%;
     opacity: 1;
     transition: opacity 3s;
+}
+
+#page .img-sizing-page1 {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 #page p {
@@ -206,10 +225,10 @@
 
 #page .entryZone {
     position: absolute;
-    height: 40px;
-    width: 40px;
-    top: 10%;
-    right: 34%;
+    height: 60px;
+    width: 60px;
+    top: 43px;
+    right: 369px;
 }
 
 #page .inventions {
@@ -221,9 +240,9 @@
 
 #page .rZone2 {
     position: absolute;
-    height: 60px;
-    width: 60px;
-    bottom: 240px;
+    height: 70px;
+    width: 70px;
+    bottom: 340px;
     left: 200px;
     border: 3px dashed green;
     border-radius: 100%;

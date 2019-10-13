@@ -7,43 +7,144 @@ import invetion1 from "../../images/invention1.png";
 import invetion2 from "../../images/invention2.png";
 import invetion3 from "../../images/invention3.png";
 import steak from "../../images/steak.png";
-
+const $ = window.$;
 
 export default class Test2 extends React.Component {
     componentDidMount() {
+        let timeoutId = null;
+        $('#restrictedZone').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid red");
+                $("#eyexmovingcircle").css("color","red");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Be Careful!");
+
+                timeoutId = setTimeout(() =>{
+                    window.open("/Out2","_self");
+                }, 1800)
+            }
+        );
+
+        $('#restrictedZone').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").css("color","#666666");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("");
+
+                if(timeoutId != null) {
+                    clearTimeout(timeoutId)
+                }
+            }
+        );
+
+        $('#inv1').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").css("white-space"," 'nowrap");
+                $("#restrictedZone").css("bottom","386px");
+                $("#inv1-caption").text('a Chocolate Pasta! It looks like a chocolate but it tastes like pasta');
+            }
+        );
+
+        $('#inv1').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+            }
+        );
+
+        $('#inv2').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").css("white-space"," 'nowrap");
+                $("#restrictedZone").css("bottom","431px");
+                $("#inv1-caption").text('a Donut mushroom soup! It looks like a chocolate but it tastes like mushroom soup.');
+            }
+        );
+
+        $('#inv2').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+            }
+        );
+
+        $('#inv3').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").css("white-space"," 'nowrap");
+                $("#restrictedZone").css("bottom","386px");
+                $("#inv1-caption").text('a Chewing gum cookie! It looks like a cookie but it is actually a chewing gum.');
+            }
+        );
+
+        $('#inv3').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+            }
+        );
+
+        $('#inv4').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").css("white-space"," 'nowrap");
+                $("#restrictedZone").css("bottom","386px");
+                $("#inv1-caption").text('a Steak candy! It is a candy which you could taste steak from it.');
+            }
+        );
+
+        $('#inv4').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+            }
+        );
+
+        let timeoutIdNext = null;
         setTimeout(() => {
-            let inv1 = document.getElementById("inv1");
-            inv1.style.border = "2px dash yellow";
-            alert("This is a Chocolate Pasta! It looks like a chocolate but it tastes like pasta.");
-            inv1.style.display = "none";
-        }, 4000);
+            $("#inv1-caption").text("nothing. Let's move on to next room");
 
+            $('#nextPage').eyeIn(
+                function() {
+                    $("#eyexmovingcircle").css("border","2px solid green");
+                    $("#eyexmovingcircle").css("color","green");
+                    $("#eyexmovingcircle").css("font-size","18px");
+                    $("#eyexmovingcircle").css("text-align","center");
+                    $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                    $("#eyexmovingcircle").text("Room 3");
+                    timeoutIdNext = setTimeout(() =>{
+                        window.open("/test3", "_self");
+                    }, 2000)
 
-        setTimeout(() => {
-            let inv2 = document.getElementById("inv2");
-            inv2.style.border = "2px dash yellow";
-            alert("This is a Donut mushroom soup! It looks like a chocolate but it tastes like mushroom soup.");
-            inv2.style.display = "none";
-        }, 8000);
-
-        setTimeout(() => {
-            let inv3 = document.getElementById("inv3");
-            inv3.style.border = "2px dash yellow";
-            alert("This is a Chewing gum cookie! It looks like a cookie but it is actually a chewing gum.");
-            inv3.style.display = "none";
-        }, 12000);
-
-
-        setTimeout(() => {
-            let inv4 = document.getElementById("inv4");
-            inv4.style.border = "2px dash yellow";
-
-            alert("This is a Steak candy! It is a candy which you could taste steak from it.");
-
-            inv4.style.display = "none";
-        }, 16000);
-        setTimeout(() => {
-            window.open("/Test3", "_self");
+                }
+            );
+            $('#nextPage').eyeOut(
+                function() {
+                    $("#eyexmovingcircle").css("border","2px solid #666666");
+                    $("#eyexmovingcircle").text("")
+                    if(timeoutIdNext != null) {
+                        clearTimeout(timeoutIdNext)
+                    }
+                }
+            );
         }, 18000)
     }
 
@@ -54,7 +155,7 @@ export default class Test2 extends React.Component {
         let inv3 = <img className="inventions" id="inv3" src={invetion3} style={{bottom:"10%"}}/>;
         let inv4 = <img className="inventions" id="inv4" src={steak}/>;
 
-        let restrictedZone2 = <div className="rZone2" onClick={out2} style={{cursor:"pointer"}}/>;
+        let restrictedZone2 = <div id="restrictedZone" className="rZone2" onClick={out2} style={{cursor:"pointer"}}/>;
 
         function out2() {
             window.open("/Out2", "_self");
@@ -94,6 +195,9 @@ export default class Test2 extends React.Component {
                                 <p>
                                     After Mr.Wonka finishes his introduction, he will take you to next room.
                                 </p>
+                                <p>
+                                    Mr.Wonka says "Ok! Now you are looking at  <span id="inv1-caption" style={{fontSize:"30px"}}>...</span>"
+                                </p>
 
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">
@@ -106,7 +210,7 @@ export default class Test2 extends React.Component {
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
-
+                    <MDBCol md="1" id="nextPage" className="nextSection"/>
                 </div>
             </div>
         )

@@ -3,8 +3,36 @@ import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation, MDBBtn, MD
 import {Helmet} from 'react-helmet';
 import "./page.css";
 import wonka from '../../images/wonka@2x.png';
-
+const $ = window.$;
 class Page6 extends React.Component {
+    componentDidMount() {
+
+        let timeoutIdNext = null;
+        $('#nextPage').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Room 1");
+                timeoutIdNext = setTimeout(() =>{
+                    window.open("/test1", "_self");
+                }, 2000)
+
+            }
+        );
+        $('#nextPage').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").text("")
+                if(timeoutIdNext != null) {
+                    clearTimeout(timeoutIdNext)
+                }
+            }
+        );
+
+    }
     render() {
         return (
             <div id="page">
@@ -32,9 +60,6 @@ class Page6 extends React.Component {
                                     He says only ONE child will win the
                                     biggest price that they can never imagine.
                                 </p>
-                                <a href="/test1">
-                                    Let's now go to the first room!
-                                </a>
 
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">
@@ -42,6 +67,7 @@ class Page6 extends React.Component {
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
+                    <MDBCol md="1" id="nextPage" className="nextSection"/>
                 </div>
             </div>
         )

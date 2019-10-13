@@ -5,7 +5,8 @@ import "./page.css";
 import goldTicket from '../../images/goldTicket@2x.png';
 import posed, { PoseGroup } from 'react-pose';
 import shuffle from './shuffle';
-
+import Snowing from "../../images/Snowing@2x.png";
+const $ = window.$;
 const Item = posed.li({
     flip: {
       transition: {
@@ -28,6 +29,44 @@ class Page2 extends React.Component {
     };
 
     componentDidMount() {
+        let timeoutId = null;
+
+        $('#specialTicket').eyeIn(
+            function() {
+
+                $("#specialTicket").css("transform","scale(1.3)");
+                $("#eyexmovingcircle").css("transition","scale ease-in-out 2s");
+                $("#eyexmovingcircle").css("border","2px solid yellow");
+                $("#eyexmovingcircle").css("transform","scale(1.3)");
+                $("#eyexmovingcircle").css("color","Yellow");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("That's it!");
+
+                timeoutId = setTimeout(() =>{
+                    window.open("/page3_2","_self");
+                }, 500)
+            }
+        );
+
+        $('#specialTicket').eyeOut(
+            function() {
+                $("#specialTicket").css("transform","scale(1)");
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").css("transform","scale(1)");
+                $("#eyexmovingcircle").css("color","#666666");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Not Easy?");
+
+                if(timeoutId != null) {
+                    clearTimeout(timeoutId)
+                }
+            }
+        );
+
         setInterval(() => {
             this.setState({
                 items: shuffle(this.state.items)
@@ -50,7 +89,7 @@ class Page2 extends React.Component {
     render() {
         const { items } = this.state;
         let ticket = <img className="ticket1" src={goldTicket}/>;
-        let ticketSpecial = <img className="ticketSpecial" src={goldTicket} onClick={openPage3}/>;
+        let ticketSpecial = <img id="specialTicket" className="ticketSpecial" src={goldTicket} onClick={openPage3}/>;
         let tickets = <ul>
             <PoseGroup>{items.map(id => id === 7 ? <Item key={id} >{ticketSpecial}</Item> : <Item key={id} >{ticket}</Item> )}</PoseGroup>
         </ul>;
@@ -92,6 +131,7 @@ class Page2 extends React.Component {
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
+
                 </div>
             </div>
         )

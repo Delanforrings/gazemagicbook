@@ -5,7 +5,7 @@ import "./page.css";
 import candyImg from '../../images/candyWorld.png';
 import candy1 from '../../images/candy1.png';
 import candy2 from '../../images/candy2.png';
-
+const $ = window.$;
 
 export default class Test1 extends React.Component {
     componentDidMount() {
@@ -23,6 +23,65 @@ export default class Test1 extends React.Component {
                 clearTimeout(timeoutId)
             }
         })
+
+        let timeoutIdNext = null;
+        let timeoutIdrZone = null;
+        $('#restrictedZone').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid red");
+                $("#eyexmovingcircle").css("color","red");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Be Careful!");
+
+                timeoutId = setTimeout(() =>{
+                    window.open("/Out1","_self");
+                }, 2500)
+            }
+        );
+
+        $('#restrictedZone').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").css("color","#666666");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("");
+
+                if(timeoutId != null) {
+                    clearTimeout(timeoutId)
+                }
+            }
+        );
+
+
+        $('#entryZone').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Room 2");
+                timeoutIdNext = setTimeout(() =>{
+                    window.open("/test2", "_self");
+                }, 1500)
+
+            }
+        );
+        $('#entryZone').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").css("color","#666666");
+                $("#eyexmovingcircle").css("font-size","15px");
+                $("#eyexmovingcircle").text("Where's entrance?")
+                if(timeoutIdNext != null) {
+                    clearTimeout(timeoutIdNext)
+                }
+            }
+        );
     }
 
 
@@ -31,7 +90,7 @@ export default class Test1 extends React.Component {
         let candyOne = <img src={candy1} className="floating" style={{width: "10%", position:"absolute", right:"90%", top:"-25%"}}/>;
         let candyTwo = <img src={candy2} className="floating" style={{width: "10%", position:"absolute", right: "1%", top:"-25%"}}/>;
         let restrcitedZone = <div id="restrictedZone" className="restricted" style={{cursor:"pointer"}}/>;
-        let entryZone = <div className="entryZone" onClick={nextRoom} style={{cursor:"pointer"}}/>;
+        let entryZone = <div id="entryZone" className="entryZone" onClick={nextRoom} style={{cursor:"pointer"}}/>;
 
         function nextRoom() {
             window.open("/Test2", "_self");

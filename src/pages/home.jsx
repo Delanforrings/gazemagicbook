@@ -3,6 +3,9 @@ import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation, MDBBtn, MD
 import {Helmet} from 'react-helmet';
 import "./home.css";
 import Landing from "./landing";
+// import "jquery"
+// import "../jquery.tobiieyeX"
+
 
 
 class Home extends React.Component {

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #btn {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="jquery.tobiieyeX.js"></script>
+</head>
+<body>
+<button id="btn">Click</button>
+<script>
+    $('#btn').eyeIn(function() {
+        alert("Eye Click");
+    },30);
+</script>
+</body>
+</html>

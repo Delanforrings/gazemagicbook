@@ -16,16 +16,16 @@ class Landing extends React.Component {
                         <hr className="hr-light my-4 w-75" />
                         <ol className="tips">
                             <li>
-                                Please move your mouse by a little bit to interact with the objects
+                                Please look at the right most edge of the window to go to next page
                             </li>
                             <li>
                                 Please read everything carefully to collect secret hints to trigger more events
                             </li>
                             <li>
-                                Please be aware that the story might be different from what you have read below
+                                Please note that texts in <span style={{color:"red"}}>blue</span> are the ones require you to click
                             </li>
                             <li>
-                                Please enjoy as much as you can
+                                Please note that when you trigger some thing bad the eye circle will turn <span style={{color:"red"}}>red</span>, otherwise it might turn <span style={{color:"green"}}>green</span>
                             </li>
                         </ol>
                         <MDBBtn id="mylink" outline rounded color="black" href="/page1">

@@ -7,16 +7,11 @@ import nut from "../../images/nut.png";
 import nut_open from "../../images/open_nut.png";
 import nut_room from "../../images/nutRoom.jpg";
 import rubbish from "../../images/rubbish.png";
-
+const $ = window.$;
 
 export default class Test3 extends React.Component {
 
     componentDidMount () {
-        let nut = document.getElementById("nut");
-        nut.addEventListener("mouseover", () => {
-            alert("You might not want to take the unpeeled nut.")
-        })
-
         let squirrel = document.getElementById("squirrel");
         squirrel.addEventListener("mouseover", () => {
             alert("You might not want to touch the squirrel");

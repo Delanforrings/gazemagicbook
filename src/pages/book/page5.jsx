@@ -3,8 +3,36 @@ import {MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation, MDBBtn, MD
 import {Helmet} from 'react-helmet';
 import "./page.css";
 import gotTicket from '../../images/CharileGolden2@2x.png';
-
+const $ = window.$;
 class Page5 extends React.Component {
+    componentDidMount() {
+
+        let timeoutIdNext = null;
+        $('#nextPage').eyeIn(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid green");
+                $("#eyexmovingcircle").css("color","green");
+                $("#eyexmovingcircle").css("font-size","18px");
+                $("#eyexmovingcircle").css("text-align","center");
+                $("#eyexmovingcircle").css("font-family"," 'IM Fell English', serif");
+                $("#eyexmovingcircle").text("Next Day");
+                timeoutIdNext = setTimeout(() =>{
+                    window.open("/page6", "_self");
+                }, 2000)
+
+            }
+        );
+        $('#nextPage').eyeOut(
+            function() {
+                $("#eyexmovingcircle").css("border","2px solid #666666");
+                $("#eyexmovingcircle").text("")
+                if(timeoutIdNext != null) {
+                    clearTimeout(timeoutIdNext)
+                }
+            }
+        );
+
+    }
     render() {
         return (
             <div id="page">
@@ -34,16 +62,13 @@ class Page5 extends React.Component {
                                     Chocolate bar. And, the very last Golden ticket is in there!
                                 </p>
 
-                                <p>
-                                    Tomorrow, little Charlie and grandpa joe are going to the Wonka's chocolate factory. <a href="/page6">Let's go!</a>
-                                </p>
-
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">
                                 <img id="image-component" className="img-sizing" src={gotTicket}/>
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
+                    <MDBCol md="1" id="nextPage" className="nextSection"/>
                 </div>
             </div>
         )

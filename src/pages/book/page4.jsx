@@ -58,7 +58,6 @@ class Page4 extends React.Component {
 
                                 {alerting}
 
-
                             </MDBCol>
                             <MDBCol md="6" className="mb-4 text-center">
                                 <img id="image-component" className="img-sizing" src={ticket}/>
