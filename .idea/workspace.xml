@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed891fe8-e093-49dd-a4f9-40e2ce5bd39d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/analysis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/clean-blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/clean-blog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jqBootstrapValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.imageLens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.tobiieyeX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/reading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/simpleheat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/trail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/trailPlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/videoScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test..html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gazemagicbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gazemagicbook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page5.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/page6.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/page6.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/test1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/test2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/book/test2_blue.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test2_blue.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/book/test3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test3_blue.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test3_blue.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/book/test3_trash.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +100,7 @@
       <workItem from="1570878217054" duration="698000" />
       <workItem from="1570953951007" duration="6159000" />
       <workItem from="1570964227721" duration="7258000" />
+      <workItem from="1571138905103" duration="1685000" />
     </task>
     <servers />
   </component>
